@@ -1,0 +1,2 @@
+# amaliyot-min
+web
