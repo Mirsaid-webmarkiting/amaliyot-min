@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.contener {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 100px;
+}
+body {
+  background-color: #f5f3f3;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* header start */
+.ona {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0px;
+}
+header {
+  background-color: #ffffff;
+  border-bottom: 2px solid rgb(184, 79, 79);
+}
+.chap {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  gap: 10px;
+}
+.z {
+  font-weight: 900px;
+}
+/* header finish */
+.ota {
+  padding: 30px;
+  margin: 50px auto;
+  border-radius: 50px;
+  width: 650px;
+  
+  background-color: #ffffff;
+  border: 1px solid gray;
+}
+.aka {
+  display: flex;
+  justify-content: space-between;
+}
+.form-chap {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #f0400f;
+}
+.title {
+  margin-top: 90px;
+  text-align: center;
+  font-size: 48px;
+  color: #0e0d5d;
+}
+.form-oquvchi {
+  background-color: #f5f5f5;
+  margin: 0 auto;
+  margin-top: 40px;
+  display: flex;
+  padding: 5px;
+  justify-content: space-between;
+  width: 533px;
+  height: 70px;
+  border-radius: 20px;
+}
+.oquvchi button {
+  background-color: #ffffff;
+  cursor: pointer;
+  width: 255px;
+  height: 54px;
+  border-radius: 15px;
+  font-size: 28px;
+  padding: 10px;
+  border: none;
+}
+.ota-ona button {
+  width: 255px;
+  cursor: pointer;
+  height: 54px;
+  border-radius: 15px;
+  font-size: 28px;
+  padding: 10px;
+  border: none;
+  background-color: transparent;-
+}
+  
+.center{
+    display: flex;
+    justify-content: center;
+}
+.form-tel{
+background-color:#f5f5f5;
+
+margin: 0 auto;
+border: none;
+border-radius: 20px;
+margin-top: 30px;
+width: 533px;
+height: 70px;
+padding: 20px;
+}
+.form-tel::placeholder{
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+}
+.QR{
+    text-align: center;
+    margin-top: 48px;
+    font-size: 20px;
+
+}
+.buttom-finish{
+    display: flex;
+    justify-content: end;
+
+}
+
+.buttom-finish button{
+    background-color: #F69E86;
+    margin-top: 30px;
+    color: #ffffff;
+    border: none;
+    width: 202px;
+    height: 67px;
+    border-radius: 20px;
+    font-size: 24px;
+    cursor: pointer;
+}
